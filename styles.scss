@@ -1,0 +1,16 @@
+.timer-wrapper {
+    position: relative;
+    padding: 80px 50px;
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .circle {
+        display: block;
+        width: 60vmin;
+        margin: auto;
+    }
+}
