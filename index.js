@@ -86,6 +86,13 @@ window.addEventListener("load", () => {
       },
       onComplete: () => {
         setTimeout(() => {
+          const countdownTitle = document.querySelector(".title");
+          countdownTitle.style.display = "none";
+
+          const timerWrapper = document.querySelector(".timer-wrapper");
+          timerWrapper.style.width = "100vw";
+          timerWrapper.style.height = "100vh";
+
           createFireworks();
         }, 3000);
       },
