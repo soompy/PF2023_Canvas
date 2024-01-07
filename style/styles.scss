@@ -11,18 +11,19 @@ body {
     text-align: center;
     padding: 80px 0 40px;
     color: #ffffff;
-}    
+}
 
 .timer-wrapper {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;    
-    position: relative; 
+    justify-content: center;
+    position: relative;
     width: 75vmin;
     height: 75vmin;
     margin: auto;
     transform-origin: center center;
+    cursor: default;
 }
 
 .circle {
@@ -34,7 +35,7 @@ body {
     width: 75vmin;
     height: 75vmin;
     margin: auto;
-    animation: wheel 0.1s ease-in-out infinite;    
+    animation: wheel 0.1s ease-in-out infinite;
     animation-fill-mode: backwards;
     transform-origin: center center;
 }
@@ -42,7 +43,7 @@ body {
 @keyframes wheel {
     0% {
         transform: translate(-50%, -50%) rotate(0);
-    }   
+    }
 
     50% {
         transform: translate(-50%, -50%) rotate(180deg);
@@ -53,7 +54,7 @@ body {
     }
 }
 
-#countdown {    
+#countdown {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -62,10 +63,10 @@ body {
     height: 75vmin;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 
     span {
-        position: absolute;                
+        position: absolute;
         opacity: 0;
         color: #ffffff;
         font-size: 60px;
