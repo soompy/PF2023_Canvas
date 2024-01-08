@@ -1,5 +1,7 @@
-import ViteSassPlugin from "vite-plugin-sass";
-
 export default {
-  plugins: [ViteSassPlugin()],
+  root: "",
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
 };
