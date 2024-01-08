@@ -12,7 +12,7 @@ export default {
     },
   },
   build: {
-    outDir: "../dist",
+    outDir: "dist",
     emptyOutDir: true,
   },
 };
